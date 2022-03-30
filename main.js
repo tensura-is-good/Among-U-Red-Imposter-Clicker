@@ -7912,7 +7912,7 @@ Game.Launch=function()
 			Game.UnlockTiered(this);
 			if (this.amount>=Game.SpecialGrandmaUnlock && Game.Objects['Grandma'].amount>0) Game.Unlock(this.grandma.name);
 		});
-		Game.last.displayName='<span style="font-size:90%;letter-spacing:-1px;position:relative;bottom:2px;">Wizard tower</span>';//shrink
+		Game.last.displayName='<span style="font-size:90%;letter-spacing:-1px;position:relative;bottom:2px;">Grand Wizard tower</span>';//shrink
 		Game.last.minigameUrl='minigameGrimoire.js';
 		Game.last.minigameName='Grimoire';
 		
