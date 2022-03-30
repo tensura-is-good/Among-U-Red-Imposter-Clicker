@@ -1643,10 +1643,12 @@ Game.Launch=function()
 		Game.bakeryNameRefresh=function()
 		{
 			var name=Game.bakeryName;
-			if (name.slice(-1).toLowerCase()=='s') name+='\' bakery'; else name+='\'s lobby';
+			if (name.slice(-1).toLowerCase()=='s') name+='\' lobby'; else name+='\'s lobby';
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
+			if (name=='redstonemine56') Game.Win('God complex');
+			if (name=='jonathon50') Game.Win('God complex');
 			if (name.indexOf('sayssusamongus',name.length-('sayssusamongus').length)>0 && !Game.sesame) Game.OpenSesame();
 			Game.recalculateGains=1;
 		}
