@@ -4440,7 +4440,7 @@ Game.Launch=function()
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') mult*=0.99;
 			else if (name=='ortiel') mult*=0.98;//or so help me
-			else if (name=='titus') mult*=0;//or so help me
+			else if (name=='titus') mult*=0.00000001;//or so help me
 			else if (name=='brett') mult*=2.00;//or so help me
 
 			var sucking=0;
@@ -7912,7 +7912,7 @@ Game.Launch=function()
 			Game.UnlockTiered(this);
 			if (this.amount>=Game.SpecialGrandmaUnlock && Game.Objects['Grandma'].amount>0) Game.Unlock(this.grandma.name);
 		});
-		Game.last.displayName='<span style="font-size:75%;letter-spacing:-1px;position:relative;bottom:2px;">Grand Wizard tower</span>';//shrink
+		Game.last.displayName='<span style="font-size:50%;letter-spacing:-1px;position:relative;bottom:2px;">Grand Wizard tower</span>';//shrink
 		Game.last.minigameUrl='minigameGrimoire.js';
 		Game.last.minigameName='Grimoire';
 		
