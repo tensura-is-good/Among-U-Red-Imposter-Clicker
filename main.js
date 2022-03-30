@@ -7,7 +7,7 @@ Hello, and welcome to the joyous mess that is main.js. Code contained herein is 
 Spoilers ahead.
 http://orteil.dashnet.org
 */
-
+ 
 var VERSION=2.031;
 var BETA=0;
 
