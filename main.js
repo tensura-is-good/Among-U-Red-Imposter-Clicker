@@ -4438,11 +4438,9 @@ Game.Launch=function()
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') mult*=0.99;
 			else if (name=='ortiel') mult*=0.98;//or so help me
-			
-			name=Game.bakeryName.toLowerCase();
-			if (name=='titus') mult*=0.000001;
+			else if (name=='titus') mult*=0;//or so help me
 			else if (name=='brett') mult*=2.00;//or so help me
-			
+
 			var sucking=0;
 			for (var i in Game.wrinklers)
 			{
