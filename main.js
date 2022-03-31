@@ -7856,7 +7856,7 @@ Game.Launch=function()
 		});
 		Game.last.minigameUrl='minigameGarden.js';
 		Game.last.minigameName='Garden';
-		Game.last.displayName='<span style="font-size:80%;letter-spacing:-1px;position:relative;bottom:4px;">Plantation</span>';//shrink
+		Game.last.displayName='<span style="font-size:100%;letter-spacing:-1px;position:relative;bottom:4px;">Plantation</span>';//shrink
 		
 		new Game.Object('Mine','mine|mines|mined|[X] mile deeper|[X] miles deeper','Mines out cookie dough and chocolate chips.',4,3,{base:'mine',xV:16,yV:16,w:64,rows:2,x:0,y:24},10000,function(me){
 			var mult=1;
