@@ -7857,7 +7857,7 @@ Game.Launch=function()
 		});
 		Game.last.minigameUrl='minigameGarden.js';
 		Game.last.minigameName='Garden';
-		Game.last.displayName='<span style="font-size:100%;letter-spacing:-1px;position:relative;bottom:4px;">Plantation</span>';//shrink
+		Game.last.displayName='<span style="font-size:100%;">Plantation</span>';//shrink
 		
 		new Game.Object('Mine','mine|mines|mined|[X] mile deeper|[X] miles deeper','Mines out cookie dough and chocolate chips.',4,3,{base:'mine',xV:16,yV:16,w:64,rows:2,x:0,y:24},10000,function(me){
 			var mult=1;
@@ -7868,7 +7868,7 @@ Game.Launch=function()
 			Game.UnlockTiered(this);
 			if (this.amount>=Game.SpecialGrandmaUnlock && Game.Objects['Grandma'].amount>0) Game.Unlock(this.grandma.name);
 		});
-		Game.last.displayName='<span style="font-size:100%;letter-spacing:-1px;position:relative;bottom:4px;">Vent</span>';//shrink
+		Game.last.displayName='<span style="font-size:100%;">Vent</span>';//shrink
 		
 		new Game.Object('Factory','factory|factories|mass-produced|[X] additional patent|[X] additional patents','Produces large quantities of cookies.',5,4,{base:'factory',xV:8,yV:0,w:64,rows:1,x:0,y:-22},3000,function(me){
 			var mult=1;
