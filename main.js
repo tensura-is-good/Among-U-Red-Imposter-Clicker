@@ -1654,7 +1654,7 @@ Game.Launch=function()
 		}
 		Game.bakeryNamePrompt=function()
 		{
-			Game.Prompt('<h3>Name your bakery</h3><div class="block" style="text-align:center;">What should your lobby\'s name be?</div><div class="block"><input type="text" style="text-align:center;width:100%;" id="bakeryNameInput" value="'+Game.bakeryName+'"/></div>',[['Confirm','if (l(\'bakeryNameInput\').value.length>0) {Game.bakeryNameSet(l(\'bakeryNameInput\').value);Game.Win(\'What\\\'s in a name\');Game.ClosePrompt();}'],['Random','Game.bakeryNamePromptRandom();'],'Cancel']);
+			Game.Prompt('<h3>Name your lobby</h3><div class="block" style="text-align:center;">What should your lobby\'s name be?</div><div class="block"><input type="text" style="text-align:center;width:100%;" id="bakeryNameInput" value="'+Game.bakeryName+'"/></div>',[['Confirm','if (l(\'bakeryNameInput\').value.length>0) {Game.bakeryNameSet(l(\'bakeryNameInput\').value);Game.Win(\'What\\\'s in a name\');Game.ClosePrompt();}'],['Random','Game.bakeryNamePromptRandom();'],'Cancel']);
 			l('bakeryNameInput').focus();
 			l('bakeryNameInput').select();
 		}
