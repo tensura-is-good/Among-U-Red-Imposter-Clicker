@@ -7765,7 +7765,7 @@ Game.Launch=function()
 			
 			if (this.amount>=1) Game.Win('Click');if (this.amount>=2) Game.Win('Double-click');if (this.amount>=50) Game.Win('Mouse wheel');if (this.amount>=100) Game.Win('Of Mice and Men');if (this.amount>=200) Game.Win('The Digital');if (this.amount>=300) Game.Win('Extreme polydactyly');if (this.amount>=400) Game.Win('Dr. T');if (this.amount>=500) Game.Win('Thumbs, phalanges, metacarpals');if (this.amount>=600) Game.Win('With her finger and her thumb');if (this.amount>=700) Game.Win('Gotta hand it to you');if (this.amount>=800) Game.Win('The devil\'s workshop');
 		});
-		Game.last.displayName='<span style="font-size:90%;letter-spacing:-1px;position:relative;bottom:4px;">Sussy Knife</span>';//shrink
+		Game.last.displayName='<span style="font-size:90%;">Sussy Knife</span>';//shrink
 		
 		Game.SpecialGrandmaUnlock=15;
 		new Game.Object('Grandma','grandma|grandmas|baked|Grandmas are [X] year older|Grandmas are [X] years older','A nice grandma to bake more cookies.',1,1,{pic:function(i){
@@ -7881,6 +7881,7 @@ Game.Launch=function()
 		});
 		//Game.last.minigameUrl='minigameDungeon.js';//not yet
 		Game.last.minigameName='Dungeon';
+		Game.last.displayName='<span style="font-size:100%;">Camera Jammer</span>';//shrink
 		
 		new Game.Object('Bank','bank|banks|banked|Interest rates [X]% better|Interest rates [X]% better','Generates cookies from interest.',6,15,{base:'bank',xV:8,yV:4,w:56,rows:1,x:0,y:13},0,function(me){
 			var mult=1;
